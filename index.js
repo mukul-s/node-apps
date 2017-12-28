@@ -17,6 +17,6 @@ const server = http.createServer((res, req) => {
 })
 
 // start the server
-server.listen(post, hostname, () => {
+server.listen(port, hostname, () => {
     console.log(`Our Url is https://${localhost}/${port}`);
 });
