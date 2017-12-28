@@ -18,5 +18,5 @@ const server = http.createServer((res, req) => {
 
 // start the server
 server.listen(port, hostname, () => {
-    console.log(`Our Url is https://${localhost}/${port}`);
+    console.log(`Our Url is https://${hostname}/${port}`);
 });
