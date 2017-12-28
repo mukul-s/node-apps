@@ -11,7 +11,7 @@ const port = '3000';
 const server = http.createServer((res, req) => {
     console.log(req.header);
 
-    req.statusCode = 200
+    req.statusCode = 200;
     req.setHeader('Content-type', 'text/html');
     req.end('<html><body>Rock on, hain ye waqt ka ishara</body></html>');
 })
