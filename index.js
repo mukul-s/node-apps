@@ -5,7 +5,7 @@ const http = require('http');
 const hostname = "localhost";
 
 // default port
-const port = '3000';
+const port = '8080';
 
 // creating server 
 const server = http.createServer((res, req) => {
